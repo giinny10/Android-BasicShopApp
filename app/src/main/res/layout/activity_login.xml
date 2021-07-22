@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".ui.activities.LoginActivity">
+
+    <FrameLayout
+        android:id="@+id/frame_header_image_id"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/auth_header_image_height">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/img_splash_background"/>
+
+        <com.tia.ecommerce.utils.BoldTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+    </FrameLayout>
+
+    <com.tia.ecommerce.utils.BoldTextView
+        android:id="@+id/login_title_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/title_login"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/title_text_size"
+        android:layout_gravity="center"
+        />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/title_email_id"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="16dp"
+            android:hint="@string/et_hint_email_id"
+            android:textColorHint="@color/colorSecondaryText">
+            <com.tia.ecommerce.utils.EditTextCustom
+                android:id="@+id/et_email_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:padding="@dimen/et_padding"
+                android:textColor="@color/colorSecondaryText"
+                android:textSize="@dimen/et_text_size"
+                tools="abc@gmail.com"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/title_password_id"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="16dp"
+        android:hint="@string/et_hint_passwotd"
+        android:textColorHint="@color/colorSecondaryText">
+        <com.tia.ecommerce.utils.EditTextCustom
+            android:id="@+id/et_password_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:padding="@dimen/et_padding"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="@dimen/et_text_size"
+            tools="abcg#123!"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/forgot_password_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:padding="@dimen/clickable_text_view_padding"
+        android:text="@string/lbl_forgot_password"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="@dimen/forgotpass_textsize"
+        android:layout_gravity="right"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_login_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:paddingTop="@dimen/btn_padding"
+        android:paddingBottom="@dimen/btn_padding"
+        android:text="@string/btn_login"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/btn_text_size"
+        android:onClick="handleLoginButtonClick"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/clickable_text_view_padding"
+            android:text="@string/dont_have_an_account"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="@dimen/lbl_text_size" />
+        <com.tia.ecommerce.utils.BoldTextView
+            android:id="@+id/register_link_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/clickable_text_view_padding"
+            android:text="@string/register"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="@dimen/lbl_text_size" />
+    </LinearLayout>
+
+</LinearLayout>

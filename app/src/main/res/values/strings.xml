@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">MyShop</string>
+    <!--login-->
+    <string name="content_description">Mô tả</string>
+    <string name="title_login">ĐĂNG NHẬP</string>
+    <string name="et_hint_email_id">Email</string>
+    <string name="et_hint_passwotd">Mật Khẩu</string>
+    <string name="lbl_forgot_password">Quên Mật Khẩu?</string>
+    <string name="btn_login">Đăng Nhập</string>
+    <string name="dont_have_an_account">Chưa có tài khoản?</string>
+    <string name="register">Tạo tài khoản</string>
+    <!--register-->
+    <string name="create_an_account">TẠO TÀI KHOẢN</string>
+    <string name="hint_last_name">Tên</string>
+    <string name="hint_first_name">Họ</string>
+    <string name="et_hint_confirm_password">Nhập lại mật khẩu</string>
+    <string name="agree_to_terms_and_condition">Tôi đồng ý với <u> Điều khoản &amp; Điều kiện </u></string>
+    <string name="btn_register">Đăng ký</string>
+    <string name="already_have_an_account">Đã có tài khoản?</string>
+    <!-- register validate-->
+    <string name="err_msg_enter_first_name">Họ không được để trống</string>
+    <string name="err_msg_enter_last_name">Tên không được để trống</string>
+    <string name="err_msg_enter_email">Email không được để trống.</string>
+    <string name="err_msg_invalid_mail">Email không hợp lệ.</string>
+    <string name="err_msg_enter_password">Password không được để trống.</string>
+    <string name="err_msg_invalid_password">Password dài 8-20 kí tự, chứa ít nhất 1 kí tự A-Z hoặc a-z, 1 kí tự đặc biệt, 1 chữ số 0-9.</string>
+    <string name="err_msg_enter_confirm_password">Nhập lại password để confirm.</string>
+    <string name="err_msg_password_and_confirm_password_mismatch">Mật khẩu không khớp.</string>
+    <string name="err_msg_agree_terms_and_condition">Bạn phải đồng ý với các điều khoản.</string>
+    <string name="success_msg_register">Đăng ký thành công.</string>
+    <string name="success_msg_login">Đăng nhập thành công.</string>
+    <string name="loading_text">Loading...</string>
+    <!-- user profile-->
+    <string name="title_complete_profile">PROFILE</string>
+    <string name="et_hint_mobile_number">Số điện thoại</string>
+    <string name="et_hint_address">Địa chỉ</string>
+    <string name="rb_lbl_male">Nam</string>
+    <string name="rb_lbl_female">Nữ</string>
+    <string name="btn_lbl_save">Lưu</string>
+    <string name="err_msg_enter_mobile_number">Vui lòng nhập số điện thoại.</string>
+    <string name="err_msg_enter_address">Vui lòng nhập địa chỉ.</string>
+    <string name="msg_profile_update_success">Thông tin cá nhân của bạn cập nhật thành công</string>
+    <string name="title_edit_profile">Chỉnh sửa profile</string>
+    <!--profile image-->
+    <string name="read_storage_permission_denied">Bạn vừa từ chối quyền truy cập vào bộ nhớ. Bạn vẫn có thể cho phép truy cập trong phần cài đặt</string>
+    <string name="image_selection_failed">Cập nhật ảnh đại diện lỗi</string>
+    <!-- main-->
+    <string name="title_dashboard">Trang chủ</string>
+    <string name="title_products">Sản phẩm</string>
+    <string name="title_orders">Giỏ hàng</string>
+    <string name="please_click_back_again_to_exit">Click nút trở về hai lần để thoát ứng dụng.</string>
+    <string name="tittle_setting">Cài đặt</string>
+    <string name="lbl_edit">Chỉnh sửa</string>
+    <string name="btn_logout">Đăng xuất</string>
+    <!-- product-->
+    <string name="action_add_product">Thêm sản phẩm</string>
+    <string name="title_add_product">THÊM SẢN PHẨM</string>
+    <string name="et_hint_product_title">Tên sản phẩm</string>
+    <string name="et_hint_product_price">Giá(VND)</string>
+    <string name="et_hint_product_description">Mô tả</string>
+    <string name="et_hint_product_quantity">Số lượng</string>
+    <string name="btn_lbl_submit">Tạo</string>
+    <string name="err_msg_select_product_image">Vui lòng chọn hình ảnh cho sản phẩm.</string>
+    <string name="err_msg_enter_product_title">Vui lòng nhập tên sản phẩm.</string>
+    <string name="err_msg_enter_product_price">Vui lòng nhập giá sản phẩm.</string>
+    <string name="err_msg_enter_product_description">Vui lòng nhập mô tả cho sản phẩm.</string>
+    <string name="err_msg_enter_product_quantity">Vui lòng nhập số lượng sản phẩm.</string>
+    <string name="product_uploaded_success_message">Chúc mừng, bạn đã thêm sản phẩm thành công.</string>
+    <string name="no_products_added_yet">Chưa có sản phẩm nào</string>
+    <string name="no_dashboard_item_found">Không có sản phẩm nào</string>
+    <string name="product_delete_success_message">Sản phẩm của bạn đã được xóa thành công.</string>
+    <string name="delete_dialog_title">Xóa</string>
+    <string name="delete_dialog_message">Bạn có chắc chắn muốn xóa sản phẩm?</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <!-- product detail -->
+    <string name="title_product_details">CHI TIẾT SẢN PHẨM</string>
+    <string name="lbl_product_description">Mô Tả</string>
+    <string name="lbl_product_details_stock_quantity">Số lượng còn lại</string>
+    <string name="btn_lbl_add_to_cart">THÊM VÀO GIỎ HÀNG</string>
+    <string name="success_message_item_added_to_cart">Sản phẩm đã được thêm vào giỏ hàng của bạn.</string>
+    <string name="btn_lbl_go_to_cart">Vào giỏ hàng</string>
+    <!--cart-->
+    <string name="title_my_cart">GIỎ HÀNG CỦA TÔI</string>
+    <string name="no_cart_item_found">Không có sản phẩm được tìm thấy trong giỏ hàng của bạn!</string>
+    <string name="lbl_subtotal">Giá mua</string>
+    <string name="lbl_shipping_charge">Phí ship</string>
+    <string name="lbl_total_amount">Tổng tiền</string>
+    <string name="btn_lbl_checkout">Thanh toán</string>
+    <string name="action_cart">Giỏ hàng</string>
+    <string name="lbl_out_of_stock">HẾT HÀNG</string>
+    <string name="msg_item_removed_successfully">Xóa sản phầm thành công.</string>
+    <string name="msg_for_available_stock">Sản phẩm tạm hết hàng trong kho, bạn không thể đặt thêm</string>
+    <!-- address-->
+    <string name="title_address_list">DANH SÁCH ĐỊA CHỈ</string>
+    <string name="no_address_found">Không có địa chỉ nào!</string>
+    <string name="lbL_add_address">Thêm địa chỉ</string>
+    <string name="title_add_address">THÊM ĐỊA CHỈ</string>
+    <string name="hint_full_name">Tên đầy đủ</string>
+    <string name="hint_phone_number">Số điện thoại</string>
+    <string name="hint_address">Địa chỉ</string>
+    <string name="hint_zip_code">ZipCode</string>
+    <string name="hint_additional_note">Ghi chú</string>
+    <string name="hint_other_details">Địa chỉ khác</string>
+    <string name="lbl_home">NHÀ RIÊNG</string>
+    <string name="lbl_office">CƠ QUAN</string>
+    <string name="lbl_other">KHÁC</string>
+    <string name="err_msg_please_enter_full_name">Vui lòng điền đẩy đủ tên.</string>
+    <string name="err_msg_please_enter_phone_number">Vui lòng nhập số điện thoại.</string>
+    <string name="err_msg_please_enter_address">Vui lòng nhập địa chỉ.</string>
+    <string name="err_msg_please_enter_zip_code">Vui lòng nhập zipcode.</string>
+    <string name="err_msg_please_enter_other_details">Vui lòng điền thông tin chi tiết khác.</string>
+    <string name="err_your_address_added_successfully">Địa chỉ của bạn đã được thêm thành công.</string>
+    <string name="title_edit_address">SỬA ĐỊA CHỈ</string>
+    <string name="btn_lbl_update">CẬP NHẬT</string>
+    <string name="msg_your_address_updated_successfully">Địa chỉ của bạn đã được cập nhật thành công.</string>
+    <string name="err_your_address_deleted_successfully">Địa chỉ của bạn đã được xóa thành công.</string>
+    <string name="title_select_address">CHỌN ĐỊA CHỈ</string>
+    <!--checkout-->
+    <string name="title_checkout">THANH TOÁN</string>
+    <string name="checkout_lbl_product_items">Danh sách sản phẩm</string>
+    <string name="checkout_lbl_selected_address">Địa chỉ giao hàng</string>
+    <string name="checkout_lbl_items_receipt">Hóa đơn</string>
+    <string name="lbl_payment_mode">Phương thức thanh toán</string>
+    <string name="lbl_cash_on_delivery">Tiền mặt</string>
+    <string name="btn_lbl_place_order">ĐẶT HÀNG</string>
+    <string name="msg_order_successfullly">Bạn đã đặt hàng thành công!</string>
+    <!--orders-->
+    <string name="no_orders_placed_yet">Không có đơn đặt hàng nào!</string>
+    <string name="title_my_order_details">ĐƠN HÀNG CỦA TÔI</string>
+    <string name="order_details_lbl">CHI TIẾT ĐƠN HÀNG</string>
+    <string name="order_details_lbl_order_id">Đơn hàng</string>
+    <string name="order_details_lbl_order_date">Ngày đặt hàng</string>
+    <string name="order_details_lbl_order_status">Tình trạng đơn hàng</string>
+    <string name="order_status_pending">Đang xử lý</string>
+    <string name="order_details_lbl_shipping_address">Địa chỉ giao hàng</string>
+    <string name="order_status_in_process">Đang vận chuyển</string>
+    <string name="order_status_delivered">Đã giao</string>
+    <string name="title_sold_products">Sản phẩm đã bán</string>
+    <string name="no_products_sold_out_yet">Không có sản phẩm nào đã bán!</string>
+    <string name="title_sold_product_details">CHI TIẾT SẢN PHẨM ĐÃ BÁN</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

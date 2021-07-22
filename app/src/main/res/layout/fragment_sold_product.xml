@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.SoldProductFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_sold_product_items"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+       />
+
+    <TextView
+        android:id="@+id/tv_no_sold_products_found"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/no_products_sold_out_yet"
+        android:textAlignment="center"
+        android:textSize="@dimen/no_data_found_textSize"
+        android:gravity="center"
+         />
+
+</FrameLayout>
