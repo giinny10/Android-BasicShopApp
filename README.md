@@ -8,8 +8,8 @@ Project: Shop App (using basic android knowledge)
 
 ![alt](https://github.com/giinnynguyen/BasicShopApp/blob/main/image/Screenshot%201.png)
 
-# Chức năng App:
-Mô tả: Một ứng dụng cho phép user tạo tài khoản/đăng nhập, đăng sản phẩm mình muốn bán, và đặt mua sản phẩm từ những người khác.
+# Application function:
+Description: An application that allows users to create an account/login, post products they want to sell and order products from others.
 
 ## 1. Tạo tài khoản:
 Validation:
