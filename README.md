@@ -1,5 +1,5 @@
 # BasicShopApp
-Project: Shop App (using basic android knowledge)
+Project: **Shop App** (using basic android knowledge)
 - Programming language: Java
 - Database: Firebase Google
 - Utils: Glide, Swipe To Delete
